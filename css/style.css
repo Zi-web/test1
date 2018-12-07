@@ -578,6 +578,13 @@ template {
     padding-top: 30px;
     display: block;
   }
+  .contacts__form-title {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .contacts__form legend {
+    text-align: center;
+  }
 }
 @media (min-width: 769px) and (max-width: 990px) {
   .contacts {
