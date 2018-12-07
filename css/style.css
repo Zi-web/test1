@@ -456,9 +456,11 @@ template {
   flex-direction: column;
   flex-wrap: wrap;
   flex-basis: 45%;
+  width: 45%;
 }
 .contacts__form-fieldset {
   flex-basis: 45%;
+  width: 45%;
 }
 .contacts__form legend {
   font-family: 'nerissemibold', Helvetica, Arial, sans-serif;
