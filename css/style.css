@@ -495,7 +495,6 @@ template {
 }
 #contacts__ya-map {
   margin: 20px auto 0;
-  /*flex-basis: 45%;*/
   width: 100%;
   position: relative;
 }
@@ -542,13 +541,10 @@ template {
     max-width: 768px;
   }
   .contacts__blocks-wrapper {
-    /*min-width: 319px;
-		max-width: 768px;*/
     margin: 0 auto;
     flex-direction: column;
   }
   .contacts__blocks {
-    /*width: auto;*/
     margin: 0 auto;
   }
   .contacts__block {
@@ -559,7 +555,6 @@ template {
     border-bottom: 2px dashed #bbb;
     padding-top: 10px;
     order: 2;
-    /*width: 100%;*/
   }
   .phone,
   .email,
@@ -593,8 +588,6 @@ template {
     max-width: 990px;
   }
   .contacts__blocks-wrapper {
-    /*min-width: 700px;
-		max-width: 1099px;*/
     flex-direction: column;
     margin: 0 auto;
   }
@@ -623,5 +616,8 @@ template {
     border-top: 2px dashed #bbb;
     padding-top: 30px;
     display: block;
+  }
+  .contacts__form legend {
+    text-align: center;
   }
 }
