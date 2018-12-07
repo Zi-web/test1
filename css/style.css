@@ -5,18 +5,6 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'nerisblack_italic';
-  src: url('../fonts/neris-blackitalic-webfont.woff2') format('woff2'), url('../fonts/neris-blackitalic-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'nerisbold_italic';
-  src: url('../fonts/neris-bolditalic-webfont.woff2') format('woff2'), url('../fonts/neris-bolditalic-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: 'nerissemibold';
   src: url('../fonts/neris-semibold-webfont.woff2') format('woff2'), url('../fonts/neris-semibold-webfont.woff') format('woff');
   font-weight: bold;
@@ -409,6 +397,7 @@ template {
   font-family: 'nerisblack', Helvetica, Arial, sans-serif;
 }
 .contacts__form-title {
+  margin: 0;
   font-family: 'nerissemibold', Helvetica, Arial, sans-serif;
   font-size: 38px;
   line-height: 1.3;
