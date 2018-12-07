@@ -384,6 +384,7 @@ template {
 }
 .contacts {
   border-bottom: 2px dashed #bbb;
+  max-width: 1100px;
 }
 .contacts__wrapper {
   max-width: 1100px;
@@ -483,7 +484,7 @@ template {
 }
 .contacts__form-text {
   color: #666;
-  font-family: neris;
+  font-family: 'nerissemibold', Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 600;
   margin: 10px auto 30px;
@@ -595,13 +596,17 @@ template {
   }
 }
 @media (min-width: 769px) and (max-width: 1100px) {
-  .contacts__wrapper {
+  .contacts {
     min-width: 700px;
     max-width: 1099px;
   }
+  .contacts__wrapper {
+    /*min-width: 700px;
+		max-width: 1099px;*/
+  }
   .contacts__blocks-wrapper {
-    min-width: 700px;
-    max-width: 1099px;
+    /*min-width: 700px;
+		max-width: 1099px;*/
     flex-direction: column;
     margin: 0 auto;
   }
