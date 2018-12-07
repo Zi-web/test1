@@ -617,6 +617,10 @@ template {
     padding-top: 30px;
     display: block;
   }
+  .contacts__form-title {
+    text-align: center;
+    margin: 0 auto;
+  }
   .contacts__form legend {
     text-align: center;
   }
