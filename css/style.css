@@ -455,11 +455,11 @@ template {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  flex-basis: 45%;
+  /*flex-basis: 45%;*/
   width: 45%;
 }
 .contacts__form-fieldset {
-  flex-basis: 45%;
+  /*flex-basis: 45%;*/
   width: 45%;
 }
 .contacts__form legend {
@@ -550,7 +550,7 @@ template {
 }
 #contacts__ya-map {
   margin: 20px auto 0;
-  flex-basis: 45%;
+  /*flex-basis: 45%;*/
   width: 100%;
   position: relative;
 }
@@ -659,6 +659,10 @@ template {
   .contacts__form-fieldset {
     order: 3;
     margin-top: 30px;
+    width: auto;
+  }
+  .contacts__blocks {
+    width: auto;
   }
   .contacts__ya-map-desktop {
     display: none;
