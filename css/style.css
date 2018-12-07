@@ -555,6 +555,40 @@ template {
 .contacts__ya-map-mob {
   display: none;
 }
+.phone,
+.email,
+.skype,
+.addres {
+  width: 200px;
+}
+.phone__whatsapp {
+  text-decoration: none;
+  color: #333;
+}
+.phone__title {
+  background: url("../img/cont1.png") no-repeat left center;
+}
+.email__title {
+  background: url("../img/cont2.png") no-repeat left center;
+}
+.skype__title {
+  background: url("../img/cont3.png") no-repeat left center;
+}
+.addres__title {
+  background: url("../img/cont4.png") no-repeat left center;
+}
+.phone__title,
+.email__title,
+.skype__title,
+.addres__title {
+  background-size: 22px auto;
+  padding: 6px 0 6px 30px;
+  font-family: neris;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0 auto 10px;
+}
 @media (min-width: 319px) and (max-width: 768px) {
   .contacts__wrapper {
     min-width: 319px;
