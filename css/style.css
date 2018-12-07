@@ -408,7 +408,7 @@ template {
 .contacts__form {
   font-family: 'nerisblack', Helvetica, Arial, sans-serif;
 }
-.contacts__form legend {
+.contacts__form-title {
   font-family: 'nerissemibold', Helvetica, Arial, sans-serif;
   font-size: 38px;
   line-height: 1.3;
