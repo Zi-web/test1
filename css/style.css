@@ -545,7 +545,6 @@ template {
 #slider__wrapper {
   width: 2300px;
   /*230(width img*10img*/
-  background-color: blue;
   display: flex;
   justify-content: space-between;
   position: relative;
