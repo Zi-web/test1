@@ -524,6 +524,36 @@ template {
   line-height: 1.2;
   margin: 0 auto 10px;
 }
+.customers {
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+.customers__title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+#slider-left {
+  display: none;
+}
+#slider {
+  width: auto;
+  height: 170px;
+  overflow: hidden;
+}
+#slider__wrapper {
+  width: 2300px;
+  /*230(width img*10img*/
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+#slider__wrapper img {
+  max-width: 100%;
+  height: auto;
+}
 @media (min-width: 319px) and (max-width: 768px) {
   .contacts__wrapper {
     min-width: 319px;
@@ -574,6 +604,9 @@ template {
   .contacts__form legend {
     text-align: center;
   }
+}
+@media (min-width: 319px) and (max-width: 767px) {
+  max-width: 766px;
 }
 @media (min-width: 769px) and (max-width: 990px) {
   .contacts {
