@@ -533,25 +533,47 @@ template {
 .customers__title {
   font-size: 30px;
   text-transform: uppercase;
+  color: black;
 }
-#slider-left {
-  display: none;
-}
-#slider {
-  width: auto;
-  height: 170px;
+.slider {
+  position: relative;
   overflow: hidden;
 }
-#slider__wrapper {
-  width: 2300px;
-  /*230(width img*10img*/
+.slider__wrapper {
   display: flex;
-  justify-content: space-between;
-  position: relative;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+  transition-duration: 0.5s;
 }
-#slider__wrapper img {
+.slider__item {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+.slider__item img {
   max-width: 100%;
   height: auto;
+}
+/*@import "price.less";*/
+.btn {
+  font-family: 'circe-regular', Helvetica, Arial, sans-serif;
+  width: 90%;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: pink;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 30px;
+  height: 30px;
+  /*выравнвание по вертикали*/
+  line-height: 30px;
+  z-index: 1;
+  border: none;
+}
+.btn:hover {
+  background-color: #ff8da1;
 }
 @media (min-width: 319px) and (max-width: 768px) {
   .contacts__wrapper {
@@ -604,8 +626,27 @@ template {
     text-align: center;
   }
 }
-@media (min-width: 319px) and (max-width: 767px) {
-  max-width: 766px;
+@media (min-width: 319px) and (max-width: 330px) {
+  /*468*/
+  .slider__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+@media (min-width: 331px) and (max-width: 468px) {
+  .customers {
+    max-width: 766px;
+  }
+  .slider__item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (min-width: 468px) and (max-width: 768px) {
+  .slider__item {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
 }
 @media (min-width: 769px) and (max-width: 990px) {
   .contacts {
@@ -651,5 +692,11 @@ template {
   }
   .contacts__form legend {
     text-align: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 1000px) {
+  .slider__item {
+    flex: 0 0 25%;
+    max-width: 25%;
   }
 }
