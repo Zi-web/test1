@@ -33,7 +33,7 @@
               _sliderControlLeft.classList.add('slider__control_show');
             }
             if (_sliderControlRight.classList.contains('slider__control_show') && (_positionLeftItem + _wrapperWidth / _itemWidth) >= position.getMax) {
-              _sliderControlRight.classList.remove('slider__control_show');
+              _sliderControlRight.classList.add('slider__control_show2');/*remove('slider__control_show')*/
             }
             _positionLeftItem++;
             _transform -= _step;
@@ -46,7 +46,7 @@
               _sliderControlRight.classList.add('slider__control_show');
             }
             if (_sliderControlLeft.classList.contains('slider__control_show') && _positionLeftItem - 1 <= position.getMin) {
-              _sliderControlLeft.classList.remove('slider__control_show');
+              _sliderControlLeft.classList.add('slider__control_show2');/*remove('slider__control_show')*/
             }
             _positionLeftItem--;
             _transform += _step;
@@ -82,4 +82,4 @@
       }
     }());
 
-   var slider = multiItemSlider('.slider')
+   var slider = multiItemSlider('.slider');
