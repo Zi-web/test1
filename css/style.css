@@ -460,7 +460,7 @@ template {
     flex-wrap: wrap;
   }
   .advantages__item {
-    width: 50%;
+    width: 33%;
   }
   .advantages__item p {
     font-size: 1.7rem;
