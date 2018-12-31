@@ -355,7 +355,6 @@ template {
   font-size: 14px;
 }
 .process {
-  /*min-width: 1171px;*/
   max-width: 1300px;
   padding-left: 40px;
   padding-right: 40px;
@@ -377,7 +376,6 @@ template {
   margin: 0 auto;
 }
 .steps {
-  border: 1px solid green;
   padding-bottom: 130px;
   z-index: 2;
 }
