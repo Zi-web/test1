@@ -410,6 +410,160 @@ template {
   font-size: 3vw;
   font-weight: bold;
 }
+.btn {
+  font-family: 'circe-regular', Helvetica, Arial, sans-serif;
+  width: 142px;
+  height: 37px;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #FF7516;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 25px;
+  height: 30px;
+  /*выравнвание по вертикали*/
+  line-height: 30px;
+  z-index: 1;
+  border: none;
+  font-size: 14px;
+}
+.process {
+  /*min-width: 1171px;*/
+  max-width: 1300px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0 auto;
+}
+.process__wrapper {
+  z-index: 2;
+  position: relative;
+}
+.process__title {
+  font-size: 50px;
+  color: #FF7516;
+  font-family: "Museo Cyrl 900";
+  margin: 20px 0 130px 5%;
+}
+.process__img-bg {
+  margin-left: 30px;
+  position: relative;
+  margin: 0 auto;
+}
+.steps {
+  border: 1px solid green;
+  padding-bottom: 130px;
+  z-index: 2;
+}
+.step {
+  position: absolute;
+}
+.step__button {
+  margin-top: 10px;
+}
+.step__1 {
+  width: 250px;
+  top: 90px;
+  left: 100px;
+}
+.step__2 {
+  width: 200px;
+  top: 90px;
+  left: 500px;
+}
+.step__3 {
+  width: 200px;
+  top: 100px;
+  left: 800px;
+}
+.step__4 {
+  width: 200px;
+  top: 230px;
+  left: 960px;
+}
+.step__5 {
+  width: 200px;
+  top: 330px;
+  left: 940px;
+}
+.step__6 {
+  width: 200px;
+  top: 380px;
+  left: 720px;
+}
+.step__7 {
+  width: 200px;
+  top: 410px;
+  left: 350px;
+}
+.step__8 {
+  width: 200px;
+  top: 370px;
+  left: 50px;
+}
+.step__title {
+  color: #03040D;
+  font-family: "Museo Cyrl 900";
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.step__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Museo Sans Cyrl 500";
+  font-size: 18px;
+  line-height: 22px;
+  color: #03040D;
+}
+.step__text a {
+  font-family: "Museo Sans Cyrl 500";
+  font-size: 18px;
+  line-height: 22px;
+  color: #FF7516;
+  text-decoration: none;
+}
+/*!!!!!!*/
+/*
+.our-masters {
+	background: #f9f9f9;
+	padding: 285px 50px;
+	border: 1px solid blue;
+}
+
+.our-masters__wrapper {
+	max-width: 1300px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.our-masters__title {
+	width: 530px;
+    height: 530px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    margin-left: -265px;
+    margin-top: -560px;
+    z-index: 1;
+    span {
+    	font-family: "Museo Cyrl 900";
+	    font-size: 50px;
+	    line-height: 60px;
+	    color: #FF7516;
+	    text-align: center;
+	    margin-top: 300px;
+	    display: inline-block;
+	    text-decoration: none;
+	    transition: .3s;
+    }
+}*/
 @media (min-width: 280px) and (max-width: 640px) {
   .advantages {
     min-width: 240px;
@@ -423,7 +577,7 @@ template {
     padding: 0;
   }
   .advantages__item p {
-    font-size: 1.7rem;
+    font-size: 1.65rem;
     color: #ed1c24;
   }
   .advantages__text {
@@ -448,6 +602,65 @@ template {
   }
   .advantage__title2 {
     display: flex;
+  }
+}
+@media (min-width: 280px) and (max-width: 1170px) {
+  .process {
+    min-width: 200px;
+    max-width: 1170px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 ;
+    z-index: 2;
+  }
+  .process__title {
+    font-size: 40px;
+    margin: 20px 0 30px 5%;
+  }
+  .process__img-bg {
+    display: none;
+  }
+  .step {
+    width: auto;
+    position: static;
+  }
+  .steps {
+    padding-bottom: 20px;
+  }
+  .step__title {
+    position: relative;
+  }
+  .step__title::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -27px;
+    background: url("../img/circle-icon.png") no-repeat center center;
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+  }
+}
+@media (min-width: 280px) and (max-width: 990px) {
+  .our-masters {
+    padding: 145px 0 50px;
+    background: #f9f9f9;
+  }
+  .our-masters__wrapper {
+    min-width: 200px;
+    max-width: 990px;
+  }
+  .our-masters__title {
+    width: 250px;
+    height: 250px;
+    margin-left: -125px;
+    margin-top: -250px;
+  }
+  .our-masters__title span {
+    font-size: 26px;
+    line-height: 32px;
+    margin-top: 70px;
   }
 }
 @media (min-width: 641px) and (max-width: 768px) {
@@ -508,7 +721,6 @@ template {
   }
   .advantages__text {
     font-size: 1.8vw;
-    /*font-weight: 400;*/
     text-transform: uppercase;
   }
   .advantages__item--mob {
