@@ -446,48 +446,89 @@ template {
   color: #FF7516;
   text-decoration: none;
 }
-/*!!!!!!*/
-/*
 .our-masters {
-	background: #f9f9f9;
-	padding: 285px 50px;
-	border: 1px solid blue;
+  background: #f9f9f9;
+  padding: 285px 50px;
+  border: 1px solid blue;
 }
-
 .our-masters__wrapper {
-	max-width: 1300px;
-	padding-left: 40px;
-	padding-right: 40px;
-	margin: 0 auto;
-	position: relative;
+  max-width: 1300px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0 auto;
+  position: relative;
 }
-
 .our-masters__title {
-	width: 530px;
-    height: 530px;
-    border-radius: 50%;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -50%;
-    left: 50%;
-    margin-left: -265px;
-    margin-top: -560px;
-    z-index: 1;
-    span {
-    	font-family: "Museo Cyrl 900";
-	    font-size: 50px;
-	    line-height: 60px;
-	    color: #FF7516;
-	    text-align: center;
-	    margin-top: 300px;
-	    display: inline-block;
-	    text-decoration: none;
-	    transition: .3s;
-    }
-}*/
+  width: 530px;
+  height: 530px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  margin-left: -265px;
+  margin-top: -560px;
+  z-index: 1;
+}
+.our-masters__title span {
+  font-family: "Museo Cyrl 900";
+  font-size: 50px;
+  line-height: 60px;
+  color: #FF7516;
+  text-align: center;
+  margin-top: 300px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+#slider {
+  margin: 2em auto;
+  width: 960px;
+  overflow: hidden;
+}
+#slider-wrapper {
+  width: 9999px;
+  height: 300px;
+  position: relative;
+  transition: left 400ms linear;
+}
+.slide {
+  float: left;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 20px;
+}
+.slide img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#slider-nav {
+  margin: 1em 0;
+  text-align: center;
+  border-radius: 50%;
+}
+#slider-nav a {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  line-height: 2;
+  margin-right: 0.5em;
+  background: #C4C4C4;
+}
+#slider-nav a.current {
+  background: #FF7516;
+}
 @media (min-width: 280px) and (max-width: 1170px) {
   .process {
     min-width: 200px;
