@@ -1,5 +1,5 @@
 'use strict';
-    var multiItemSlider = (function () {
+    var multiItemSlider= (function () {
       return function (selector, config) {
         var
           _mainElement = document.querySelector(selector), // основный элемент блока

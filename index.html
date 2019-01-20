@@ -7,7 +7,320 @@
     <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
-    <section class="process">
+    <!---   КОНТАКТЫ - 1-46 - СДАНО(РАБОЧЕЕ)
+    <section class="contacts">
+      <h2 class="contacts__title">Контакты</h2>
+        <div class="contacts__arrow">
+          <img src="img/sep_img2.png" class="contacts__arrow-img">
+          <div class="contacts__line"></div>
+        </div>
+
+      <div class="contacts__wrapper">
+
+        <div class="contacts__blocks-wrapper">
+          <div class="contacts__blocks">
+            <div class="contacts__block">
+              <div class="phone">
+                <div class="phone__title">
+                  <span>Позвоните нам</span>
+                </div>
+                  <p>Телефон / WhatsApp<br>
+                  <a href="tel:78632269073" class="phone__whatsapp">+7 (863) 226-90-73</a><br>
+                  <a href="tel:491744671919" class="phone__whatsapp">+49 (174) 467-19-19</a></p>
+              </div>
+              <div class="email">
+                <div class="email__title">
+                  <span>Напишите нам</span>
+                </div>
+                <p>info@medstudium.ru</p>
+              </div>
+            </div>
+            <div class="contacts__block  contacts__block2">
+              <div class="skype">
+                <div class="skype__title">
+                  <span>Скайп</span>
+                </div>
+                <p>medstudium</p>
+              </div>
+              <div class="addres">
+                <div class="addres__title">
+                  <span>Адрес</span>
+                </div>
+                <p>г. Ростов-на-Дону 334025<br>
+                ул. Окружная 30А, офис 5</p>
+              </div>
+            </div>
+            <div id="contacts__ya-map" class="contacts__ya-map-desktop">
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A64235dc79b1ee95f9f450f8799a9046890d845dbabe178e3c42a655e4f4e3738&amp;source=constructor" width="100%" height="300" frameborder="0"></iframe>
+          </div>
+          </div>
+
+          <div id="contacts__ya-map" class="contacts__ya-map-mob">
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A64235dc79b1ee95f9f450f8799a9046890d845dbabe178e3c42a655e4f4e3738&amp;source=constructor" width="100%" height="300" frameborder="0"></iframe>
+          </div>
+
+          <fieldset class="contacts__form-fieldset">
+          <form class="contacts__form" action="/echo" method="post">
+            <legend></legend>
+            <p class="contacts__form-title">Напишите нам</p>
+            <p class="contacts__form-text">Мы всегда на связи</p>
+
+            <label for="name"></label>
+            <input type="text" name="name" required placeholder="Введите ваше имя *" id="name" class="contacts__form-name">
+
+            <label for="email"></label>
+            <input type="email" name="email" required placeholder="Ваш Email *" id="email" class="contacts__form-email">
+
+            <label for="tel"></label>
+            <input type="tel" name="tel" required placeholder="Номер телефона *" class="contacts__form-tel">
+
+            <label for="message"></label>
+            <textarea name="message" id="message" rows="7" required placeholder="Ваше сообщение *" class="contacts__form-message"></textarea>
+
+            <div class="contacts__form-pers">
+              <label for="cb">
+              <input type="checkbox" name="subscribe" id="subscribe-field" class="contacts__form-check">*Нажав кнопку "Отправить сообщение" вы даете согласие на обработку <a href="#">персональных данных</a>
+              </label>
+            </div>
+            <button type="submit" class="contacts__form-btn">Отправить сообщение</button>
+          </form>
+          </fieldset>    
+        </div>
+      </div>
+    </section> --->
+
+<!--- ЗАКАЗЧИКИ 2-25 - СДАНО (РАБОЧЕЕ)
+    <section class="customers">
+      <h2 class="customers__title">Заказчики</h2>
+ 
+      <div class="slider">
+      <div class="slider__wrapper">
+        <div class="slider__item">
+          <img src="img/s-AquaJet.jpg">
+        </div>
+        <div class="slider__item">
+          <img src="img/s-Bashneft.jpg">
+        </div>
+        <div class="slider__item">
+          <img src="img/s-BKF.jpg">
+        </div>
+        <div class="slider__item">
+          <img src="img/s-Chebneft.jpg">
+        </div>
+        <div class="slider__item">
+          <img src="img/s-Condensate.jpg">
+        </div>
+        <div class="slider__item">
+          <img src="img/s-Gazprom_GES.jpg">
+        </div>
+        <div class="slider__item">
+          <img src="img/s-H2O.jpg">
+        </div>
+        <div class="slider__item">
+          <img src="img/s-Gazpromneft.jpg">
+        </div>
+        <div class="slider__item">
+          <img src="img/s-Oktant.jpg">
+        </div>
+      </div>
+  </div>
+    </section>
+    <script type="text/javascript" src="js/slider-customers.js"></script>
+---->
+
+
+<!--- НАШИ ЦЕНЫ 3-13 - СДАНО (неЗАЧЕТ)
+    <section class="price">
+      <h2 class="price__title">Наши цены Our prices</h2>
+      <p class="price__descr">Уровень наших работ значительно превышает их стоимость</p>
+      <div class="price__decor-img">
+        <img src="img/img_pod.png">
+      </div>
+        <div class="slider">
+        <div class="slider__wrapper">
+        <div class="slider__item">
+          <figure class="pocket">
+            <div class="pocket__title">
+              <h4>Пакет 1</h4>
+              <p>Классический декор зала</p>
+            </div>
+              <img src="img/IMG_4193-1-e1460666767911.jpg" alt="photo">
+              <figcaption class="pocket__price">
+                <p>23 600 руб</p>
+                <a class="pocket__btn btn  btn--price" href="#">Подробнее<span></span></a>
+              </figcaption>
+            </figure>
+        </div>
+        <div class="slider__item">
+          <figure class="pocket">
+            <div class="pocket__title">
+              <h4>Пакет 2</h4>
+              <p>Выездная регистрация</p>
+            </div>
+              <img src="img/ijbMtm47as1-e1460666908214.jpg" alt="photo">
+              <figcaption class="pocket__price">
+                <p>23 600 руб</p>
+                <a class="pocket__btn btn  btn--price" href="#">Подробнее<span></span></a>
+              </figcaption>
+            </figure>
+        </div>
+        <div class="slider__item">
+          <figure class="pocket">
+            <div class="pocket__title">
+              <h4>Пакет 3</h4>
+              <p>Аренда флористических композиций</p>
+            </div>
+              <img src="img/IMG_2077-e1460702430685.jpg" alt="photo">
+              <figcaption class="pocket__price">
+                <p>23 600 руб</p>
+                <a class="pocket__btn btn  btn--price" href="#">Подробнее<span></span></a>
+              </figcaption>
+            </figure>
+        </div>
+        <div class="slider__item">
+          <figure class="pocket">
+            <div class="pocket__title">
+              <h4>Пакет 4</h4>
+              <p>Классический расширенный</p>
+            </div>
+              <img src="img/20150718_162829.jpg" alt="photo">
+              <figcaption class="pocket__price">
+                <p>23 600 руб</p>
+                <a class="pocket__btn btn  btn--price" href="#">Подробнее<span></span></a>
+              </figcaption>
+            </figure>
+        </div>
+        <div class="slider__item">
+          <figure class="pocket">
+            <div class="pocket__title">
+              <h4>Пакет 5</h4>
+              <p>Классический "Все включено!"</p>
+            </div>
+              <img src="img/20150819_140505.jpg" alt="photo">
+              <figcaption class="pocket__price">
+                <p>23 600 руб</p>
+                <a class="pocket__btn btn  btn--price" href="#">Подробнее<span></span></a>
+              </figcaption>
+            </figure>
+        </div>
+    </div>
+    
+    <button class="slider__control slider__control_left  slider__control_show" href="#" role="button"></button>
+    <div class="price__decor-border"></div>
+    <button class="slider__control slider__control_right slider__control_show" href="#" role="button"></button>
+    
+  </div>
+    </section>
+    <script type="text/javascript" src="js/slider-price.js"></script>
+    ---->
+
+<!---- ПОЧЕМУ МЫ 5-6 - СДАНО - ЗАЧЕТ
+    <section class="why">
+        <h2 class="why__title">Почему Германия?</h2>
+        <p class="why__descr">Германия - одна из самых развитых стран в мире, которая сейчас как никогда заинтересована в медицинских специалистах</p>
+        <div class="why__decor"></div>
+        <div class="why__items">
+          <div class="why__wrapper">
+              <div class="why__vert-line"></div>
+          <div class="why__item1  education">
+            <h3 class="education__title">Образование в Германии</h3>
+            <ul class="education__items">
+              <li class="education__item">
+                <img src="img/why1.png.pagespeed.ce.mlzmqAWDxA.png" alt="photo">
+                <h4 class="education__item-title">Бесплатное обучение</h4>
+                <p class="education__item-text">Престижное и качественное образование, признанное во всём мире, доступно каждому, потому что обучение в университете Германии бесплатное даже для студентов из других стран</p>
+              </li>
+              <li class="education__item">
+                <img src="img/pagespeed.ce.mlzmq.png" alt="photo">
+                <h4 class="education__item-title">Стипендии от 300 €</h4>
+                <p class="education__item-text">Вы сможете получать одну или сразу несколько стипендий из различных фондов. По каждой из них выплаты составляют от 300 евро. Студентам помогает множество немецких организаций</p>
+              </li>
+              <li class="education__item">
+                <img src="img/why3.png.pagespeed.ce.o_pmG7Yv-u.png" alt="photo">
+                <h4 class="education__item-title">Качественное образование</h4>
+                <p class="education__item-text">Германия вкладывает от 30 000 евро в обучение каждого медицинского студента за один год. Университеты оснащены на высочайшем уровне и привлекают для работы на своих кафедрах лучших учёных и преподавателей со всего мира</p>
+              </li>
+            </ul>
+          </div>
+          <div class="why__item2  education">
+            <h3 class="education__title">Работа врачом в Германии</h3>
+            <ul class="education__items">
+              <li class="education__item">
+                <img src="img/why4.png.pagespeed.ce.22J1jJBb3D.png" alt="photo">
+                <h4 class="education__item-title">Зарплата врача от 3224 €</h4>
+                <p class="education__item-text">Работа врачом, независимо от специализации, предусматривает высокую, даже по европейским меркам, зарплату, которая позволяет обеспечить потребности всей семьи для жизни в Германии</p>
+              </li>
+              <li class="education__item">
+                <img src="img/why5.png.pagespeed.ce.w7HOr9UGdV.png" alt="photo">
+                <h4 class="education__item-title">Переезд вместе с семьей</h4>
+                <p class="education__item-text">Существует возможность переезда в Германию вместе с семьёй. При этом члены вашей семьи будут обладать всеми необходимыми правами, с возможностью работать, посещать школу и т.д.</p>
+              </li>
+              <li class="education__item">
+                <img src="img/why6.png.pagespeed.ce.ZStLqPZzR9.png" alt="photo">
+                <h4 class="education__item-title">Профессиональный рост</h4>
+                <p class="education__item-text">Каждый год Германия вкладывает в развитие здравоохранения более 230 млрд евро. Строятся множество новых клиник и расширяются уже существующие. Работа в Германии - это очень выгодное инвестирование в Ваше будущее</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    ---->
+    <!------- Наши ЗАСЛУГИ - СДАНО - ЗАЧЕТ
+    <section class="advantages">
+      <h2 class="advantages__title">Наши заслуги</h2>
+      <div class="advantages__items">
+        <figure class="advantages__item">
+          <img src="img/group-8.svg" alt="photo">
+          <figcaption>
+            <p>21 783</p>
+            <span class="advantages__text">счастливых клиента</span>
+          </figcaption>
+        </figure>
+        <figure class="advantages__item">
+          <img src="img/project.svg" alt="photo">
+          <figcaption>
+            <p>2 582</p>
+            <span class="advantages__text  advantages__text--nomob">успешно выполненных проекта</span>
+            <span class="advantages__text  advantages__text--mob">выполненных проектов</span>
+          </figcaption>
+        </figure>
+        <figure class="advantages__item">
+          <img src="img/networking-group.svg" alt="photo">
+          <figcaption>
+            <p>62,3%</p>
+            <span class="advantages__text">клиентов по рекомендации</span>
+          </figcaption>
+        </figure>
+        <figure class="advantages__item">
+          <img src="img/group-9.svg" alt="photo">
+          <figcaption>
+            <p>10 лет</p>
+            <span class="advantages__text  advantages__text--nomob">на рынке Республики Беларусь</span>
+            <span class="advantages__text  advantages__text--mob">на рынке РБ</span>
+          </figcaption>
+        </figure>
+        <figure class="advantages__item  advantages__item--mob">
+          <figcaption>
+            <p>15 783</p>
+            <span class="advantages__text">довольных физических лиц</span>
+          </figcaption>
+        </figure>
+        <figure class="advantages__item  advantages__item--mob">
+          <figcaption>
+            <p>2 348</p>
+            <span class="advantages__text">довольных юридических лиц</span>
+          </figcaption>
+        </figure>
+      </div>
+      <p class="advantage__credit">Работаем с кредитными деньгами</p>
+      <div class="advantage__title2">
+        <img src="img/logo-lamp.png" alt="photo">
+        <p>С компанией «Электромастер» надёжно и светло!</p>
+      </div>
+    </section>
+    ----->
+    <div class="process">
       <div class="process__wrapper">
       <h2 class="process__title">Процесс нашей работы</h2>
         <div class="process__items steps">
@@ -15,7 +328,7 @@
           <div class="step  step__1">
             <h3 class="step__title">Заявка</h3>
             <p class="step__text">Вы оставляете заявку на сайте или по тел.<a href="tel:+74952412581">+7 (495) 241-25-81</a></p>
-            <a href="#" class="step__button  btn">Оставить заявку</a>
+            <a href="#" class="step__button  btn--process">Оставить заявку</a>
           </div>
           <div class="step  step__2">
             <h3 class="step__title">Бесплатно</h3>
@@ -47,6 +360,125 @@
           </div>
         </div>
       </div>
-    </section>
+
+      
+
+      <div class="popup-consultation  modal-content">
+        <!---
+        <div class="popup-consultation__sidebar">
+        <div class="consultation-sidebar__icon">
+        </div>
+      </div>--->
+
+
+      <div class="popup-consultation__form">
+       <span class="popup-consultation__close"></span>
+      
+      
+      
+        <form action="/echo" method="post" class="form">
+          <h3 class="popup-consultation__title">Бесплатная консультация</h3>
+          <p class="popup-consultation__descr">Оставьте свои данные, наши специалисты свяжутся с вами в течение 15 минут и ответят на все ваши вопросы!</p>
+            
+          <div class="popup-consultation__input  popup-consultation__input--tel">
+            <input type="tel" id="tel" name="tel" placeholder="Введите номер телефона" required>
+          </div>
+
+          <div class="popup-consultation__input  popup-consultation__input--name">
+            <input type="text" name="name" placeholder="Ваше имя" id="name">
+          </div>
+
+          <div class="popup-consultation__input  popup-consultation__input--email">
+            <input type="email" name="email" placeholder="Email адрес" id="email">
+          </div>
+
+          <div class="popup-consultation__textarea  popup-consultation__input--message">
+            <textarea name="message" id="message" rows="6" placeholder="Ваш комментарий к заявке" required></textarea>
+          </div>
+
+            <button type="submit" class="btn  btn--popup-consultation">Получить консультацию</button>
+        </form>
+     
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/popup.js"></script>
+
+    <div class="our-masters">
+      <div class="our-masters__wrapper">
+        <div class="our-masters__title">
+          <span>Наши мастера</span>
+        </div>
+        
+            <div class="slider">
+              <div class="slider__wrapper">
+              <div class="slider__item">
+                <figure class="masters">
+                  <img src="img/владимир.png" alt="photo">
+                  <figcaption class="masters__text">
+                    <p class="masters__name">Владимир Шевченко</p>
+                    <span class="masters__position">Сантехник</span><br>
+                    <span class="masters__experience">Опыт работы: 15 лет</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="slider__item">
+                <figure class="masters">
+                  <img src="img/Алексеи.png" alt="photo">
+                  <figcaption class="masters__text">
+                    <p class="masters__name">Владимир Шевченко</p>
+                    <span class="masters__position">Сантехник</span><br>
+                    <span class="masters__experience">Опыт работы: 15 лет</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="slider__item">
+                <figure class="masters">
+                  <img src="img/ильдус.png" alt="photo">
+                  <figcaption class="masters__text">
+                    <p class="masters__name">Владимир Шевченко</p>
+                    <span class="masters__position">Сантехник</span><br>
+                    <span class="masters__experience">Опыт работы: 15 лет</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="slider__item">
+                <figure class="masters">
+                  <img src="img/Александр.png" alt="photo">
+                  <figcaption class="masters__text">
+                    <p class="masters__name">Владимир Шевченко</p>
+                    <span class="masters__position">Сантехник</span><br>
+                    <span class="masters__experience">Опыт работы: 15 лет</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="slider__item">
+                <figure class="masters">
+                  <img src="img/олег.png" alt="photo">
+                  <figcaption class="masters__text">
+                    <p class="masters__name">Владимир Шевченко</p>
+                    <span class="masters__position">Сантехник</span><br>
+                    <span class="masters__experience">Опыт работы: 15 лет</span>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="slider__item">
+                <figure class="masters">
+                  <img src="img/олег.png" alt="photo">
+                  <figcaption class="masters__text">
+                    <p class="masters__name">Владимир Шевченко</p>
+                    <span class="masters__position">Сантехник</span><br>
+                    <span class="masters__experience">Опыт работы: 15 лет</span>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          <button class="slider__control slider__control_left  slider__control_show" href="#" role="button"></button>
+          <button class="slider__control slider__control_right slider__control_show" href="#" role="button"></button> 
+        </div>
+
+        <script type="text/javascript" src="js/slider-our-masters.js"></script>
+      </div>
+    </div>
   </body>
 </html>
